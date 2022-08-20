@@ -9,7 +9,8 @@ fun main() {
     val myFirstDice = Diceee(6)
     val rollResult = myFirstDice.roll()
     val luckyNumber = 4
-
+    
+    // When is same as switch.
     when (rollResult) {
         luckyNumber -> println("You won!")
         1 -> println("So sorry! You rolled a 1. Try again!")
@@ -17,6 +18,7 @@ fun main() {
         3 -> println("Unfortunately, you rolled a 3. Try again!")
         5 -> println("Don't cry! You rolled a 5. Try again!")
         6 -> println("Apologies! You rolled a 6. Try again!")
+        else ->(println("Hello"))
     }
 }
 

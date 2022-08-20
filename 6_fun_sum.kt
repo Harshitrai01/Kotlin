@@ -17,6 +17,7 @@ fun sum1(a:Int,b:Int) = a+b
 
 
 // A function that returns no meaningful value.
+// A functions which returns nothing, returns Unit.
 fun printSum(a: Int, b: Int): Unit {
     println("sum of $a and $b is ${a + b}")
 }

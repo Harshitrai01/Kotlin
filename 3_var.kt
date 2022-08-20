@@ -1,5 +1,6 @@
 fun main(){
     // val can not be changed later
+    // var can be changed later
     val age =5
     println(age)
 
