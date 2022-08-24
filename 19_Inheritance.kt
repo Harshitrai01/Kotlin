@@ -25,7 +25,7 @@ class Students(name: String, val school: String, override var age: Int) : Person
 fun main() {
     val student = Students("John", "DP School", 10)
     student.doWork()
-    // This is a person class and we are assigning student objec to it.
+    // This is a person class and we are accessigning student objec to it.
     // Student is parent here.
     //  val x:Person=Students("Mark","Doe")
     println("The age of student is ${student.age}")
